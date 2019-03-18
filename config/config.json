@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "adminlma",
+    "password": "luma1234",
+    "database": "lumadb",
+    "host": "85.10.205.173",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "adminlma",
+    "password": "luma1234",
+    "database": "lumadb",
+    "host": "85.10.205.173",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}
