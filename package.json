@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/mocha/bin/mocha --timeout 5000 routes/test/*.js --require babel-register --reporter spec || exit 0",
-    "start": "./index.js --exec babel-node -e js"
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +31,7 @@
     "express": "^4.16.4",
     "mocha": "^6.0.2",
     "mysql2": "^1.6.5",
+    "nodemon": "^1.18.10",
     "sequelize": "^4.43.0"
   }
 }
