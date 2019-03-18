@@ -6,7 +6,7 @@ import WorkingHours from "./routes/workingHours";
 import Schedule from "./routes/bookAppointments";
 import PatientDetails from "./routes/getPatient";
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
